@@ -258,7 +258,7 @@ class WaitingSpinner(QWidget):
     def _update_size(self) -> None:
         """Update the size of the WaitingSpinner."""
         size = (self._inner_radius + self._line_length) * 2
-        self.setFixedSize(int(size), int(size))
+        self.setFixedSize(size, size)
 
     def _update_timer(self) -> None:
         """Update the spinning speed of the WaitingSpinner."""
