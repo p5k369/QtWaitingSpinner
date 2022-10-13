@@ -61,9 +61,9 @@ class SpinnerConfigurator(QWidget):
         self.sb_opacity = QDoubleSpinBox()
         self.sb_fadeperc = QDoubleSpinBox()
         self.sb_lines = QSpinBox()
-        self.sb_line_length = QDoubleSpinBox()
-        self.sb_line_width = QDoubleSpinBox()
-        self.sb_inner_radius = QDoubleSpinBox()
+        self.sb_line_length = QSpinBox()
+        self.sb_line_width = QSpinBox()
+        self.sb_inner_radius = QSpinBox()
         self.sb_rev_s = QDoubleSpinBox()
 
         # set spinbox default values

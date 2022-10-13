@@ -34,7 +34,7 @@ setters:
 
 ### Usage
 
-You can easily ajust spinner settings by running:
+You can easily adjust spinner settings by running:
 
 ```bash
 pyqtspinner-conf
